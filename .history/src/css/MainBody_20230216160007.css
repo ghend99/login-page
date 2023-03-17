@@ -1,0 +1,5 @@
+.main-body {
+  display: flexbox;
+  background-color: lightgreen;
+  flex: 1;
+}

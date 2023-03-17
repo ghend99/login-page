@@ -1,0 +1,28 @@
+.main-body {
+  position: relative;
+  flex: 1;
+  background-color: lightgreen;
+  height: 99vh;
+  left: 290px;
+}
+
+.game-news-cyberpunk--image {
+  position: absolute;
+  width: 250px;
+  left: 100px;
+  top: 50px;
+}
+
+.game-news-cyberpunk--title {
+  position: absolute;
+  left: 100px;
+  top: 346px;
+  font-size: 16px;
+  width: 215px;
+  border: solid;
+  color: white;
+  padding: 15px;
+  justify-content: center;
+  backdrop-filter: blur(100px);
+  background-color: rgba(0, 100%, 50%, 0.9);
+}

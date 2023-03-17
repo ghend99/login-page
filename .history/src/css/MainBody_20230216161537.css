@@ -1,0 +1,12 @@
+.main-body {
+  position: relative;
+  display: flexbox;
+  flex: 1;
+  height: 100vh;
+  left: 300px;
+  box-shadow: 2px 2px 2px green;
+}
+
+.main-body--title {
+  display: inline-block;
+}

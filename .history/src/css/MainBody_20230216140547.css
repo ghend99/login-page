@@ -1,0 +1,7 @@
+.main-body {
+  position: relative;
+  flex: 1;
+  background-color: lightgreen;
+  height: 97.71vh;
+  left: 290px;
+}

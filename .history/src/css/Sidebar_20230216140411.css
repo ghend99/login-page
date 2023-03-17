@@ -1,0 +1,147 @@
+.sidebar {
+  position: fixed;
+  display: flex;
+  width: 300px;
+  height: 100vh;
+  background-color: lightblue;
+  margin: 0;
+  left: 0;
+}
+
+.sidebar-title--first {
+  position: absolute;
+
+  width: 80px;
+  left: 70px;
+}
+
+.sidebar-title--second {
+  position: absolute;
+
+  width: 300px;
+  left: 10px;
+  top: 50px;
+}
+
+.sidebar-logo {
+  position: absolute;
+
+  width: 60px;
+  top: 8px;
+}
+
+.sidebar-links--home {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-direction: column;
+  height: 55px;
+  top: 120px;
+  width: 200px;
+  border: solid;
+}
+
+.sidebar-links-image--home {
+  position: absolute;
+
+  width: 50px;
+}
+
+.sidebar-links-title--home {
+  position: absolute;
+
+  left: 70px;
+  font-size: 20px;
+}
+
+.sidebar-links--search {
+  position: absolute;
+  display: flex;
+  width: 200px;
+  height: 55px;
+  top: 200px;
+  border: solid;
+}
+
+.sidebar-links-image--search {
+  position: absolute;
+  display: flex;
+  width: 50px;
+}
+
+.sidebar-links-title--search {
+  position: absolute;
+  display: flex;
+  width: 50px;
+  left: 70px;
+  font-size: 20px;
+}
+
+.sidebar-links--review {
+  position: absolute;
+  display: flex;
+  width: 200px;
+  height: 55px;
+  top: 280px;
+  border: solid;
+}
+
+.sidebar-links-image--review {
+  position: absolute;
+  display: flex;
+  width: 50px;
+}
+
+.sidebar-links-title--review {
+  position: absolute;
+  display: flex;
+  width: 50px;
+  left: 70px;
+  font-size: 20px;
+}
+
+.sidebar-links--news {
+  position: absolute;
+  display: flex;
+  width: 200px;
+  height: 55px;
+  top: 350px;
+  border: solid;
+}
+
+.sidebar-links-image--news {
+  position: absolute;
+  display: flex;
+  width: 50px;
+}
+
+.sidebar-links-title--news {
+  position: absolute;
+  display: flex;
+  width: 50px;
+  left: 70px;
+  font-size: 20px;
+}
+
+.sidebar-links--login {
+  position: absolute;
+  display: flex;
+  width: 200px;
+  height: 55px;
+  top: 420px;
+  border: solid;
+}
+
+.sidebar-links-image--login {
+  position: absolute;
+  display: flex;
+  width: 50px;
+}
+
+.sidebar-links-title--login {
+  position: absolute;
+  display: flex;
+  width: 50px;
+  left: 70px;
+  font-size: 20px;
+}

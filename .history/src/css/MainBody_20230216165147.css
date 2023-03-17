@@ -1,0 +1,21 @@
+.main-body {
+  position: relative;
+  display: flexbox;
+  flex: 1;
+  height: 100vh;
+  left: 300px;
+  box-shadow: 2px 2px 2px green;
+}
+
+.section-header {
+  position: absolute;
+  display: inline-block;
+  left: 20px;
+  top: 40px;
+}
+
+.trending-reviews {
+  position: relative;
+  display: flex;
+  height: 100px;
+}

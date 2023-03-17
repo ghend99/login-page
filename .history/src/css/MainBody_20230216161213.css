@@ -1,0 +1,7 @@
+.main-body {
+  position: relative;
+  display: flexbox;
+  background-color: lightgreen;
+  flex: 1;
+  height: 100vh;
+}

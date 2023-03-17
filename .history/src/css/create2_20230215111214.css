@@ -1,0 +1,21 @@
+.container-create2 {
+  position: fixed;
+  border: solid;
+  border-radius: 5px;
+  background-color: white;
+  height: 500px;
+  width: 10%;
+  min-width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: none;
+}
+
+.back-arrow {
+  position: relative;
+  display: flex;
+  width: 20px;
+  left: 20px;
+  top: 20px;
+}

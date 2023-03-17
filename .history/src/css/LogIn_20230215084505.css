@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Chakra+Petch:wght@500&display=swap");
+
+.container {
+  position: fixed;
+  border: solid;
+  border-radius: 5px;
+  background-color: lightblue;
+  height: 500px;
+  width: 10%;
+  min-width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: none;
+}
+
+.login-title {
+  left: 50px;
+}
+
+.header {
+  position: relative;
+  height: 40px;
+  border-bottom: solid;
+}
+
+.header-logo {
+  position: absolute;
+  display: flex;
+  left: -7px;
+  top: -10px;
+  height: 70px;
+  width: 70px;
+}
+
+.header-title {
+  position: absolute;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  left: 30%;
+  top: 10px;
+  font-family: "Chakra Petch";
+  color: white;
+}
+
+.header-close {
+  position: absolute;
+  display: flex;
+  margin: 0;
+  right: 0;
+  top: 12px;
+  margin-right: 15px;
+  justify-content: right;
+}
+
+.navbar-home {
+  margin-right: 50px;
+}
+
+.main-link {
+  background-color: lightgreen;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.main-link-login {
+  margin-left: 20px;
+  font-size: 12px;
+  font-size: 18px;
+}
+
+.main-link-create-account {
+  margin-right: 20px;
+  font-size: 12px;
+  font-size: 18px;
+}
+
+.main-login-title {
+  position: relative;
+  display: flex;
+  left: 40px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Chakra Petch";
+}
+
+.login {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: middle;
+  width: 300px;
+  left: 5%;
+  height: 100px;
+}
+
+.login-email {
+  position: absolute;
+  display: flex;
+  height: 30px;
+  width: 250px;
+  margin-top: 15px;
+  border: solid;
+  border-color: green;
+  border-width: 2.5px;
+  border-radius: 2px;
+}
+
+.login-email-2 {
+  position: absolute;
+  display: flex;
+  height: 30px;
+  width: 250px;
+  margin-top: 15px;
+  border: solid;
+  border-color: orange;
+  border-width: 2.5px;
+  border-radius: 2px;
+}
+
+.login-password {
+  position: absolute;
+  display: flex;
+  margin-top: 40px;
+  border: solid;
+  height: 30px;
+  width: 250px;
+  border-width: 2.5px;
+  border-radius: 2px;
+  border-color: green;
+  vertical-align: center;
+  top: 20px;
+}
+
+.show-password {
+  position: relative;
+  /* left: clamp(50px, 5%, 60px); */
+  left: 90px;
+  top: -33px;
+}
+
+.login-confirm {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 280px;
+  height: 30px;
+  left: -7px;
+  top: 100px;
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.reset-password {
+  display: flex;
+  position: relative;
+  top: 100px;
+}
+
+.login-break {
+  position: relative;
+  display: flex;
+  top: 30px;
+  justify-content: center;
+}
+
+.google-login {
+  position: relative;
+  display: flex;
+  top: 20px;
+  width: 280px;
+  height: 30px;
+  left: 8px;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer {
+  position: fixed;
+  height: 30px;
+  background-color: lightgray;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer-title {
+  position: absolute;
+  display: flex;
+  left: 5px;
+  top: -10px;
+  font-family: "Chakra Petch";
+}
+
+.footer-certification {
+  position: absolute;
+  display: flex;
+  top: -8px;
+  right: 6px;
+}

@@ -1,0 +1,33 @@
+.main-body {
+  position: relative;
+  display: flexbox;
+  flex: 1;
+  height: 100vh;
+  left: 300px;
+  box-shadow: 2px 2px 2px green;
+}
+
+.main-body--title {
+  position: absolute;
+  display: inline-block;
+  left: 30px;
+}
+
+.review-container {
+  position: relative;
+  display: flex;
+
+  column-gap: 16px;
+  width: 300px;
+  height: 500px;
+  background-color: lightgreen;
+  left: 80px;
+  top: 100px;
+}
+
+.section-header {
+  position: absolute;
+  display: inline-block;
+  left: 20px;
+  top: 40px;
+}

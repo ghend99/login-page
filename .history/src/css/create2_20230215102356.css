@@ -1,0 +1,28 @@
+.container-create2 {
+  position: fixed;
+  border: solid;
+  border-radius: 5px;
+  background-color: lightblue;
+  height: 500px;
+  width: 10%;
+  min-width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: none;
+}
+
+.header-create2 {
+  position: relative;
+  height: 40px;
+  border-bottom: solid;
+  background-color: black;
+}
+
+.header-logo--create2 {
+  position: absolute;
+  display: flex;
+  top: -5px;
+  height: 50px;
+  width: 15%;
+}

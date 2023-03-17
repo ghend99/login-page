@@ -1,0 +1,42 @@
+.header {
+  position: relative;
+  height: 40px;
+  border-bottom: solid;
+  background-color: black;
+}
+
+.header-logo {
+  position: absolute;
+  display: flex;
+  top: -5px;
+  height: 50px;
+  width: 15%;
+}
+
+.header-title {
+  position: absolute;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  left: 30%;
+  top: 10px;
+  font-family: "Chakra Petch";
+  color: white;
+}
+
+.header-close {
+  position: absolute;
+  display: flex;
+  right: 10px;
+  top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.header-close--button {
+  position: relative;
+  display: flex;
+  left: 400px;
+}

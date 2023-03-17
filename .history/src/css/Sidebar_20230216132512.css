@@ -1,0 +1,56 @@
+.sidebar {
+  position: relative;
+  display: flex;
+  width: 200px;
+  height: 300px;
+  background-color: lightblue;
+  margin: 0;
+  left: 0;
+}
+
+.sidebar-title--first {
+  position: absolute;
+  display: flex;
+  width: 80px;
+  left: 70px;
+}
+
+.sidebar-title--second {
+  position: absolute;
+  display: flex;
+  width: 300px;
+  left: 10px;
+  top: 50px;
+}
+
+.sidebar-logo {
+  position: absolute;
+  display: flex;
+  width: 60px;
+  top: 8px;
+}
+
+.sidebar-links {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-direction: column;
+  height: 400px;
+  top: 50px;
+  width: 200px;
+  justify-content: center;
+}
+
+.sidebar-links--home {
+  position: absolute;
+  display: flex;
+  width: 50px;
+  top: 70px;
+}
+
+.sidebar-links-title--home {
+  position: absolute;
+  display: flex;
+  top: 75px;
+  left: 70px;
+}

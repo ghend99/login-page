@@ -1,0 +1,60 @@
+.main-body {
+  position: relative;
+  display: flexbox;
+  flex: 1;
+  height: 100vh;
+  left: 300px;
+  box-shadow: 2px 2px 2px green;
+}
+
+.main-body--title {
+  position: absolute;
+  display: inline-block;
+  left: 30px;
+}
+
+.section-header {
+  position: absolute;
+  display: inline-block;
+  left: 20px;
+  top: 40px;
+}
+
+.review-container--review1 {
+  position: absolute;
+  display: inline-flex;
+  width: 300px;
+  height: 500px;
+  background-color: lightgreen;
+  left: 5%;
+  top: 100px;
+}
+
+.review-container--review2 {
+  position: absolute;
+  display: inline-flex;
+  width: 300px;
+  height: 500px;
+  background-color: lightgreen;
+  left: 20%;
+  top: 100px;
+}
+
+.review-container--review3 {
+  position: absolute;
+  display: inline-flex;
+  width: 300px;
+  height: 500px;
+  background-color: lightgreen;
+  left: 35%;
+  top: 100px;
+}
+
+.review-title {
+  position: absolute;
+}
+
+.review1-image {
+  position: absolute;
+  width: 100%;
+}

@@ -1,0 +1,68 @@
+.container-create2 {
+  position: fixed;
+  border: solid;
+  border-radius: 5px;
+  background-color: white;
+  height: 500px;
+  width: 10%;
+  min-width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: none;
+}
+
+.back-arrow {
+  position: relative;
+  display: flex;
+  width: 20px;
+  left: 20px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.back-link {
+  position: relative;
+  display: flex;
+  left: 50px;
+  top: -10px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+.create-input-email--header {
+  position: absolute;
+  display: flex;
+  top: 110px;
+  left: 20px;
+}
+
+.create-input--email {
+  position: absolute;
+  display: flex;
+  top: 160px;
+  left: 20px;
+}
+
+.create-input-password--header {
+  position: absolute;
+  display: flex;
+  top: 180px;
+  left: 20px;
+}
+
+.create-input--password {
+  position: absolute;
+  display: flex;
+  top: 230px;
+  left: 20px;
+}
+
+.create-submit {
+  position: relative;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+}

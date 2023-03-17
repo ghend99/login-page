@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Chakra+Petch:wght@500&display=swap");
+
+.container {
+  position: fixed;
+  border: solid;
+  border-radius: 5px;
+  background-color: white;
+  height: 500px;
+  width: 10%;
+  min-width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: none;
+}
+
+.login-title {
+  left: 50px;
+}
+
+.navbar-home {
+  margin-right: 50px;
+}
+
+.main-link {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.main-link-login,
+.main-link-create-account {
+  margin-left: 20px;
+  font-size: 12px;
+  font-size: 18px;
+}
+
+.main-login-title {
+  position: relative;
+  display: flex;
+  left: 40px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Chakra Petch";
+}
+
+.login {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: middle;
+  width: 300px;
+  left: 5%;
+  height: 100px;
+}
+
+.login-email {
+  position: absolute;
+  display: flex;
+  height: 30px;
+  width: 250px;
+  margin-top: 15px;
+  border: solid;
+
+  border-width: 2.5px;
+  border-radius: 2px;
+}
+
+.login-email-2 {
+  position: absolute;
+  display: flex;
+  height: 30px;
+  width: 250px;
+  margin-top: 15px;
+  border: solid;
+  border-color: orange;
+  border-width: 2.5px;
+  border-radius: 2px;
+}
+
+.login-password {
+  position: absolute;
+  display: flex;
+  margin-top: 40px;
+  border: solid;
+  height: 30px;
+  width: 250px;
+  border-width: 2.5px;
+  border-radius: 2px;
+
+  vertical-align: center;
+  top: 20px;
+}
+
+.show-password {
+  position: relative;
+  left: 90px;
+  top: -33px;
+}
+
+.login-confirm {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 280px;
+  height: 30px;
+  left: -7px;
+  top: 80px;
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.reset-password {
+  display: flex;
+  position: relative;
+  top: 100px;
+  width: 150px;
+  height: 30px;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.reset-password--text {
+  display: flex;
+  position: relative;
+  top: 80px;
+  margin: 0;
+  padding-left: 5px;
+}
+
+.login-break {
+  position: relative;
+  display: flex;
+  top: 30px;
+  justify-content: center;
+}
+
+.google-login {
+  position: relative;
+  display: flex;
+  top: 20px;
+  width: 280px;
+  height: 30px;
+  left: 8px;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

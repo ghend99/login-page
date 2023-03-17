@@ -1,0 +1,9 @@
+.header {
+  position: relative;
+  height: 40px;
+  border-bottom: solid;
+  background-color: black;
+}
+
+.header-logo {
+}

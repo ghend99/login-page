@@ -1,0 +1,21 @@
+.sidebar {
+  position: relative;
+  display: flex;
+  width: 200px;
+  height: 300px;
+  background-color: lightblue;
+  margin: 0;
+  left: 0;
+}
+
+.sidebar-title {
+  position: absolute;
+  display: flex;
+  width: 300px;
+  left: 80px;
+}
+
+.sidebar-logo {
+  position: absolute;
+  display: flex;
+}

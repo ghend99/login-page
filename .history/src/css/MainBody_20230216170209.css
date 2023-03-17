@@ -1,0 +1,51 @@
+.main-body {
+  position: relative;
+  display: flexbox;
+  flex: 1;
+  height: 100vh;
+  left: 300px;
+}
+
+.trending-reviews {
+  position: relative;
+  display: flex;
+  height: 300px;
+  width: 500px;
+  left: 100px;
+  top: 100px;
+  box-shadow: 2px 2px 2px gray;
+}
+
+.trending-reviews--title {
+  position: absolute;
+  display: flex;
+  width: 300px;
+  justify-content: left;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  top: -10px;
+  left: 10px;
+  border-bottom: solid;
+}
+
+.trending-reviews--image1 {
+  position: absolute;
+  display: flex;
+  width: 100px;
+  top: 50px;
+  left: 20px;
+}
+
+.trending-reviews--name1 {
+  position: absolute;
+  bottom: 55px;
+  left: 40px;
+}
+
+.trending-reviews--meta1 {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  border: solid;
+}

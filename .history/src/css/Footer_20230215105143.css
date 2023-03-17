@@ -1,0 +1,25 @@
+.footer {
+  position: fixed;
+  height: 30px;
+  background-color: black;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer-title {
+  position: absolute;
+  display: flex;
+  left: 5px;
+  top: -10px;
+  font-family: "Chakra Petch";
+  color: white;
+}
+
+.footer-certification {
+  position: absolute;
+  display: flex;
+  top: -8px;
+  right: 6px;
+  color: white;
+}

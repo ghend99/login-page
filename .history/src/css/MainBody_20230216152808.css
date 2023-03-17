@@ -1,0 +1,11 @@
+.main-body {
+  position: relative;
+  flex: 1;
+  height: 99vh;
+  /* left: 290px; */
+}
+
+.game-news--title {
+  font-size: 20px;
+  display: inline-block;
+}

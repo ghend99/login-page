@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  border: solid;
+  background-color: lightblue;
+  height: 600px;
+  width: 15%;
+  display: "flex";
+  position: "absolute";
+  left: "50%";
+  top: "50%";
+  transform: "translate(-50%, -50%)";
+}
+
+.login-title {
+  left: 50px;
+}
+
+.header {
+  position: relative;
+  height: 40px;
+  border-bottom: solid;
+  background-color: lightcoral;
+}
+
+.header-logo {
+  position: absolute;
+  display: flex;
+  left: -13px;
+  top: -7px;
+  height: 70px;
+  width: 70px;
+}
+
+.header-close {
+  position: absolute;
+  display: flex;
+  margin: 0;
+  right: 0;
+  top: 22px;
+  margin-right: 15px;
+  justify-content: right;
+}
+
+.navbar-home {
+  margin-right: 50px;
+}
+
+.main-link {
+  background-color: lightgreen;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: solid;
+}
+
+.main-link-login {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+.main-link-create-account {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 12px;
+}
+
+.main-login-title {
+  position: relative;
+  display: flex;
+  left: 30px;
+}
