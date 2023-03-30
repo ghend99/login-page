@@ -1,4 +1,4 @@
-import "../../css/Create.css";
+import "../../css/Mobile/Create.css";
 import { CountryDropdown } from "react-country-region-selector";
 import React, { useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";

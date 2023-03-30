@@ -1,4 +1,4 @@
-import "../../css/Create2.css";
+import "../../css/Mobile/Create2.css";
 import { useState } from "react";
 import { Header } from "../../components/Mobile/Header-M";
 import { Footer } from "../../components/Mobile/Footer-M";

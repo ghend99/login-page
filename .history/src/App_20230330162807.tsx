@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./css/App.css";
-import "../src/css/Login.css";
-import "../src/css/Create2.css";
+import "./css/Mobile/Login.css";
+import "./css/Mobile/Create2.css";
 import { Login } from "./pages/Mobile/Login-M";
 import { Create } from "./pages/Mobile/Create-M";
 import { Create2 } from "./pages/Mobile/Create2-M";
-import { Change } from "./pages/Mobile/Change-M";
+import { Change } from "./pages/Mobile/Chang-M";
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../../css/Create.css";
+import "../../css/Mobile/MainLink.css";
 
 export const MainLink = () => {
   return (

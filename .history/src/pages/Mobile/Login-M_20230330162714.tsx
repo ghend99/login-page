@@ -1,4 +1,4 @@
-import "../../css/Login.css";
+import "../../css/Mobile/Login.css";
 import { auth, provider } from "../../config/firebase";
 import {
   signInWithPopup,

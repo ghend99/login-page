@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./css/App.css";
 import "../src/css/Login.css";
-import "../src/css/Create2.css";
+import "../src/css/Create2";
 import { Login } from "./pages/Mobile/Login-M";
 import { Create } from "./pages/Mobile/Create-M";
 import { Create2 } from "./pages/Mobile/Create2-M";
