@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./css/App.css";
 import "../src/css/Login";
 import "../src/css/Create2.css";
-import { Login } from "./pages/Login-M";
-import { Create } from "./pages/Create-M";
-import { Create2 } from "./pages/Create2-M";
-import { Change } from "./pages/Change-M";
+import { Login } from "./pages/Mobile/Login-M";
+import { Create } from "./pages/Mobile/Create-M";
+import { Create2 } from "./pages/Mobile/Create2-M";
+import { Change } from "./pages/Mobile/Change-M";
 
 function App() {
   return (
