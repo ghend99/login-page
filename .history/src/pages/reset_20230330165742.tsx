@@ -1,7 +1,7 @@
 import "../css/Reset.css";
 
 import { Header } from "../components/Header";
-import { MainLink } from "../components/MainLink";
+import { MainLink } from "../components/MainLink-M";
 import { Footer } from "../components/Footer";
 
 export const Reset = () => {

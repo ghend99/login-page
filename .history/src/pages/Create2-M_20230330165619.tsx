@@ -1,8 +1,8 @@
 import "../css/Create2.css";
 import { useState } from "react";
-import { Header } from "../components/Header";
-import { Footer } from "../components/Footer";
-import { MainLink } from "../components/MainLink";
+import { Header } from "../components/Header-M";
+import { Footer } from "../components/Footer-M";
+import { MainLink } from "../components/MainLink-M";
 import { Link, useNavigate } from "react-router-dom";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 export const Create2 = () => {

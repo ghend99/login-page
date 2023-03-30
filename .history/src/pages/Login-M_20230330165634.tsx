@@ -9,9 +9,9 @@ import {
 import { useNavigate, Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
-import { Header } from "../components/Header";
-import { Footer } from "../components/Footer";
-import { MainLink } from "../components/MainLink";
+import { Header } from "../components/Header-M";
+import { Footer } from "../components/Footer-M";
+import { MainLink } from "../components/MainLink-M";
 
 export const Login = () => {
   const navigate = useNavigate();

@@ -5,9 +5,9 @@ import { useNavigate, Link } from "react-router-dom";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
-import { Header } from "../components/Header";
+import { Header } from "../components/Header-M";
 import { Footer } from "../components/Footer";
-import { MainLink } from "../components/MainLink";
+import { MainLink } from "../components/MainLink-M";
 
 export const Create = () => {
   const [country, setCountry] = useState<string>("");

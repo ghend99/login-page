@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./css/App.css";
-import "../src/css/Login.css";
-import "../src/css/Create2.css";
+import "../src/css/Login-M.css";
+import "../src/css/Create2-M.css";
 import { Login } from "./pages/Login-M";
 import { Create } from "./pages/Create-M";
 import { Create2 } from "./pages/Create2-M";

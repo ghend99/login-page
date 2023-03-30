@@ -16,5 +16,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   }
-  // "include": ["src", "src/pages/Change-M.tsx"]
+   "include": ["src", "src/pages/Change-M.tsx"]
 }

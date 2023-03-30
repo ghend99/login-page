@@ -7,7 +7,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
-import { MainLink } from "../components/MainLink";
+import { MainLink } from "../components/MainLink-M";
 
 export const Create = () => {
   const [country, setCountry] = useState<string>("");

@@ -1,7 +1,7 @@
 import "../css/Change.css";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
-import { MainLink } from "../components/MainLink";
+import { MainLink } from "../components/MainLink-M";
 import { useState } from "react";
 import {
   getAuth,
